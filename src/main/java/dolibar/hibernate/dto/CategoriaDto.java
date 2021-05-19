@@ -48,4 +48,9 @@ public class CategoriaDto {
         this.tipoCategorias = tipoCategorias;
     }
 
+    @Override
+    public String toString() {
+        return "CategoriaDto{" + "idCategorias=" + idCategorias + ", referenciaCategorias=" + referenciaCategorias + ", descripcionCategorias=" + descripcionCategorias + ", tipoCategorias=" + tipoCategorias + '}';
+    }
+
 }
